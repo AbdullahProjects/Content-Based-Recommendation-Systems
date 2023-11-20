@@ -21,6 +21,11 @@ if user_menu == "Movies Recommendations":
     st.title("Movies Recommendation System")
     movie_name = st.selectbox("Select Movie Name:", movie_dataset["title"].unique())
     movie_nos = st.sidebar.selectbox("How many movies?", [0,2,4,6,8])
+    st.sidebar.header("Project Details:")
+    st.sidebar.write("Details of this project are mentioned in my Github repository. Here is link 'https://github.com/AbdullahProjects/Content-Based-Recommendation-Systems'")
+    st.sidebar.header("About Developer")
+    st.sidebar.write("This project is developed by Abdullah Khan Kakar. Here is my linkedin profile: 'https://www.linkedin.com/in/abdullah-khan-kakar-51555129a/'")
+
 
     name,movie_poster,current_movie = helper.recommend(movie_dataset, movies_recommender, movie_name, movie_nos)
     if movie_nos==0:
@@ -144,6 +149,11 @@ if user_menu == "Indian Foods Recommendations":
     st.title("Indian Foods Recommendation System")
     food_name = st.selectbox("Select Food Name:", foods_dataset["name"].unique())
     food_nos = st.sidebar.selectbox("How many foods?", [0,2,4,6,8])
+    st.sidebar.header("Project Details:")
+    st.sidebar.write("Details of this project are mentioned in my Github repository. Here is link 'https://github.com/AbdullahProjects/Content-Based-Recommendation-Systems'")
+    st.sidebar.header("About Developer")
+    st.sidebar.write("This project is developed by Abdullah Khan Kakar. Here is my linkedin profile: 'https://www.linkedin.com/in/abdullah-khan-kakar-51555129a/'")
+
 
     current_food, name, food_posters = helper.recommend_food(foods_dataset, foods_recommender, food_name, food_nos)
     if food_nos==0:
