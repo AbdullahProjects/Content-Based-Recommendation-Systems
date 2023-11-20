@@ -1,4 +1,4 @@
-# Content-Based Recommendation Systems
+# 🔥Content-Based Recommendation Systems
 
 Welcome to the **Content-Based Recommendation Systems** project! This project is designed to provide recommendations for movies and Indian foods based on user preferences. It utilizes datasets from Kaggle, specifically the [TMDB Movies Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) containing 5000 movies and the [Indian Foods and Its Recipes Dataset](https://www.kaggle.com/datasets/kishanpahadiya/indian-food-and-its-recipes-dataset-with-images) with 4000 Indian foods and recipes.
 
