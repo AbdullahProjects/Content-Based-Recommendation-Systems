@@ -12,7 +12,7 @@ foods_dataset = pk.load(open("imported from jupyter notebook/foods/new_dataset.p
 foods_recommender = pk.load(open("imported from jupyter notebook/foods/similarity_recommender.pkl",'rb'))
 
 
-st.sidebar.title("Recommendations Systems")
+st.sidebar.title("Content Based Recommendations Systems")
 st.sidebar.image("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Z9L4NzGtOuLttslg6GxDr9uCWqQxAZm7iQ&usqp=CAU")
 user_menu = st.sidebar.radio("Select Recommendation System:",("Movies Recommendations","Indian Foods Recommendations"))
 
